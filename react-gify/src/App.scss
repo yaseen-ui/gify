@@ -1,0 +1,65 @@
+.img-container {
+  width: 100%;
+  margin-bottom: 2rem;
+  img {
+    width: 100%;
+  }
+}
+
+.pause-btn {
+  margin-top: 1rem;
+  float: right;
+}
+
+@keyframes like-gif {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.navbar-brand {
+  margin-left: 2rem;
+}
+
+.gifs-container {
+  padding-top: 4rem;
+}
+
+.status-msg {
+  margin-top: 0.5rem;
+}
+.gify-container {
+  .play-pause-img {
+    width: 3rem;
+    cursor: pointer;
+  }
+}
+
+.gifs-layout {
+  height: calc(100vh - 160px);
+  overflow-y: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.dark-mode {
+  background-color: #3c4042;
+  color: antiquewhite;
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
